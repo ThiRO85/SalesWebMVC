@@ -8,8 +8,7 @@ namespace SalesWebMVC.Models
 {
     public class SalesWebMVCContext : DbContext
     {
-        public SalesWebMVCContext (DbContextOptions<SalesWebMVCContext> options)
-            : base(options)
+        public SalesWebMVCContext (DbContextOptions<SalesWebMVCContext> options) : base(options)
         {
         }
 
